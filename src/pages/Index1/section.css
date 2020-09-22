@@ -1,0 +1,26 @@
+#imagen{
+   background: url('../../assets/images/portafolio2.png') no-repeat center ;
+   position: relative;
+
+}
+
+.imagen-section {
+    padding-top: 500px;
+    overflow: hidden;
+  }
+  /*
+  .home-img {
+    position: relative;
+  }
+  
+  .imagen-img::before {
+    content: "";
+    position: absolute;
+    width: 360px;
+    height: 330px;
+    background-color: rgba(47, 85, 212, 0.1);
+    border-radius: 30% 70% 59% 41% / 30% 38% 62% 70%;
+    z-index: -1;
+    top: 90px;
+    right: 15px;
+  }*/
