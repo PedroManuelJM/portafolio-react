@@ -70,7 +70,7 @@ class NavbarPage extends Component {
                             </ScrollspyNav>
                         </Collapse>
                     </Container>
-                    <Button href="/" outline color="primary"> <img src={casa} /></Button>
+                    <Button href="https://pedromanueljm.github.io/portafolio-react/" outline color="primary"> <img src={casa} /></Button>
                 </Navbar>
                 
             </React.Fragment>
