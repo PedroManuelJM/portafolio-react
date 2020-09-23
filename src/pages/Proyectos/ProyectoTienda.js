@@ -8,16 +8,15 @@ import Clients from '../../components/Client/client';
 import Pricing from "../../components/Pricing/pricing";
 import Subscribe from "../../components/Subscribe/Subscribe";
 import Footer from "../../components/Footer/footer";
-import ProyectoTienda from '../Proyectos/ProyectoTienda';
 
-class Index1 extends Component {
+
+class ProyectoTienda extends Component {
     constructor(props) {
         super(props);
         this.state = {
             navItems: [
-                { id: 1, idnm: "home", navheading: "Inicio" },
-                { id: 2, idnm: "services", navheading: "Conocimientos" },
-                { id: 3, idnm: "features", navheading: "Portafolio" },
+                   { id: 1, idnm: "home", navheading: "Inicio" },
+
               //  { id: 4, idnm: "clients", navheading: "Clients" },
               //  { id: 6, idnm: "pricing", navheading: "Plans" }
             ],
@@ -45,6 +44,7 @@ class Index1 extends Component {
         }
     };
 
+
     render() {
         return (
             <React.Fragment>
@@ -55,34 +55,16 @@ class Index1 extends Component {
                 {/* Importing section */}
                 <Section />
 
-                {/* Importing Service */}
-                <Service />
-
-                {/* Importing Features */}
-                <Features />
-
-               
-
-         
+          
 
                 {/* Importing Footer */}
                 <Footer />
             </React.Fragment>
         );
     }
+
+   
+
 }
 
-export default Index1;
-
-/*
-   { /*Importing Clients }
-   <Clients />
-
-   {/* Importing Pricing }
-   <Pricing />
-       
-   {/* Importing Sunscribe }
-   <Subscribe />
-
-
-*/
+export default ProyectoTienda;

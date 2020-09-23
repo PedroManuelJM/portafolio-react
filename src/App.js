@@ -12,6 +12,7 @@ import "./theme.scss";
 
 //Import Icon Css
 import "./assets/css/materialdesignicons.min.css";
+import ProyectoTienda from "./pages/Proyectos/ProyectoTienda";
 
 class App extends Component {
   constructor(props) {
@@ -23,9 +24,10 @@ class App extends Component {
       <React.Fragment>
         <Router>
           <Switch>
+            
             {routes.map((route, idx) => (
               <Route path={route.path} component={route.component} key={idx} />
-            ))}
+            ))} 
           </Switch>
         </Router>
       </React.Fragment>

@@ -33,7 +33,7 @@ class FeatureBox extends Component {
                             </Row>
 
                             <div className="mt-4">
-                                <Link to={this.props.link} className="btn btn-primary">Learn more {" "}
+                                <Link to={this.props.link} className="btn btn-primary">Ver mas {""}
                                 <i>
                                     <FeatherIcon icon="arrow-right" className="icons-sm ml-1" />
                                 </i>

@@ -17,7 +17,7 @@ import ScrollspyNav from "./scrollSpy";
 import logolight from "../../assets/images/logo-light.png";
 import logodark from "../../assets/images/logo-dark.png";
 import logo from "../../assets/images/logobanner.png";
-
+import casa from "../../assets/images/casa.png";
 class NavbarPage extends Component {
     constructor(props) {
         super(props);
@@ -62,14 +62,17 @@ class NavbarPage extends Component {
                                     {this.props.navItems.map((item, key) => (
                                         <NavItem key={key} className={item.navheading === "Home" ? "active" : ""}>
                                             <NavLink href={"#" + item.idnm} > {item.navheading}</NavLink>
+                                            
                                         </NavItem>
-                                    ))}
+                                    ))} 
                                 </Nav>
-                               
+
                             </ScrollspyNav>
                         </Collapse>
                     </Container>
+                    <Button href="/" outline color="primary"> <img src={casa} /></Button>
                 </Navbar>
+                
             </React.Fragment>
         );
     }

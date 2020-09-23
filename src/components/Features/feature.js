@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Card, CardBody, CardHeader } from "reactstrap";
 
+import { Link } from 'react-router-dom';
 //Import Section Title
 import SectionTitle from "../common/section-title";
 import FeatureBox from "./feature-box";
@@ -39,7 +40,8 @@ class Features extends Component {
                 <Row>
                     <Col lg={5}>
                         <div>
-                            <FeatureBox icon="bar-chart-2" title="Proyecto Tienda Online" smallFeatures={this.state.smallFeatures1} desc="If several languages coalesce, the grammar of the resulting language is more simple and regular." link="#" />
+                            <FeatureBox icon="bar-chart-2" title="Proyecto Tienda Online" smallFeatures={this.state.smallFeatures1} desc="If several languages coalesce, the grammar of the resulting language is more simple and regular." link="/proyectotienda"  />
+                            
                         </div>
                     </Col>
 
@@ -81,7 +83,7 @@ class Features extends Component {
                     </Col>
                     <Col lg={5} className="ml-lg-auto">
                         <div className="mt-4 mt-lg-0">
-                        <FeatureBox icon="pie-chart" title="Increase your Marketing Performance" smallFeatures={this.state.smallFeatures2} desc="If several languages coalesce, the grammar of the resulting language is more simple and regular." link="#" />
+                        <FeatureBox icon="pie-chart" title="Increase your Marketing Performance" smallFeatures={this.state.smallFeatures2} desc="If several languages coalesce, the grammar of the resulting language is more simple and regular." link=" " />
                         </div>
                     </Col>
 
