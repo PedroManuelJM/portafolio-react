@@ -9,7 +9,7 @@ import FeatureBox from "./feature-box";
 //Import Images
 import feature1 from "../../assets/images/features/img-1.png";
 import feature2 from "../../assets/images/features/img-2.png";
-
+import tienda from "../../assets/images/tienda/tienda.png";
 
 class Features extends Component {
     constructor(props) {
@@ -56,7 +56,7 @@ class Features extends Component {
                             </CardHeader>
                             <CardBody className="bg-light">
                                 <div className="box-shadow">
-                                    <img src={feature1} alt="" className="img-fluid mx-auto d-block"/>
+                                    <img src={tienda} alt="" className="img-fluid mx-auto d-block"/>
                                 </div>
                             </CardBody>
                         </Card>
