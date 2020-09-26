@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Card, CardBody, CardHeader } from "reactstrap";
 
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 //Import Section Title
 import SectionTitle from "../common/section-title";
 import FeatureBox from "./feature-box";
 
 //Import Images
-import feature1 from "../../assets/images/features/img-1.png";
+//import feature1 from "../../assets/images/features/img-1.png";
 import feature2 from "../../assets/images/features/img-2.png";
 import tienda from "../../assets/images/tienda/tienda.png";
 

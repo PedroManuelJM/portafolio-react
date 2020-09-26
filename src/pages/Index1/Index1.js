@@ -4,11 +4,8 @@ import NavbarPage from "../../components/Navbar/Navbar_Page";
 import Section from './section';
 import Service from "../../components/Service/service";
 import Features from "../../components/Features/feature";
-import Clients from '../../components/Client/client';
-import Pricing from "../../components/Pricing/pricing";
-import Subscribe from "../../components/Subscribe/Subscribe";
 import Footer from "../../components/Footer/footer";
-import ProyectoTienda from '../Proyectos/ProyectoTienda';
+
 
 class Index1 extends Component {
     constructor(props) {

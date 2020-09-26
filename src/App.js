@@ -12,7 +12,7 @@ import "./theme.scss";
 
 //Import Icon Css
 import "./assets/css/materialdesignicons.min.css";
-import ProyectoTienda from "./pages/Proyectos/ProyectoTienda";
+//import ProyectoTienda from "./pages/Proyectos/ProyectoTienda";
 
 class App extends Component {
   constructor(props) {

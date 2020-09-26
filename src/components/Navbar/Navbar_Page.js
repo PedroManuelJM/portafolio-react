@@ -14,8 +14,8 @@ import {
 import ScrollspyNav from "./scrollSpy";
 
 //Import Images
-import logolight from "../../assets/images/logo-light.png";
-import logodark from "../../assets/images/logo-dark.png";
+//import logolight from "../../assets/images/logo-light.png";
+//import logodark from "../../assets/images/logo-dark.png";
 import logo from "../../assets/images/logobanner.png";
 import casa from "../../assets/images/casa.png";
 class NavbarPage extends Component {
@@ -70,7 +70,7 @@ class NavbarPage extends Component {
                             </ScrollspyNav>
                         </Collapse>
                     </Container>
-                    <Button href="https://pedromanueljm.github.io/portafolio-react/" outline color="primary"> <img src={casa} /></Button>
+                    <Button href="https://pedromanueljm.github.io/portafolio-react/" outline color="primary"><img src={casa} alt="" /></Button>
                 </Navbar>
                 
             </React.Fragment>
