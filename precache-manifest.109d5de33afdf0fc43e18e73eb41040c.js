@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e6db550e4c51a996ff2fd150c568a726",
+    "revision": "28729b2ab14db7b958e9c4acb6caf405",
     "url": "/portafolio-react/index.html"
   },
   {
-    "revision": "0c67460815fcbdbfa9eb",
+    "revision": "da70e54579e5a197a5d7",
     "url": "/portafolio-react/static/css/2.6c12b992.chunk.css"
   },
   {
-    "revision": "4cc0331973dc298027af",
+    "revision": "4c43b142ba93378f88a0",
     "url": "/portafolio-react/static/css/main.e05f777e.chunk.css"
   },
   {
-    "revision": "0c67460815fcbdbfa9eb",
-    "url": "/portafolio-react/static/js/2.df4efbd4.chunk.js"
+    "revision": "da70e54579e5a197a5d7",
+    "url": "/portafolio-react/static/js/2.9a703223.chunk.js"
   },
   {
     "revision": "413b595604c5d3d1d7baf18f18130db2",
-    "url": "/portafolio-react/static/js/2.df4efbd4.chunk.js.LICENSE.txt"
+    "url": "/portafolio-react/static/js/2.9a703223.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4cc0331973dc298027af",
-    "url": "/portafolio-react/static/js/main.5606e5b3.chunk.js"
+    "revision": "4c43b142ba93378f88a0",
+    "url": "/portafolio-react/static/js/main.289edf9d.chunk.js"
   },
   {
     "revision": "d2cf96da7a7c80889b4c",
@@ -80,10 +80,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portafolio-react/static/media/home-img.b7340a70.png"
   },
   {
-    "revision": "4570c307e0a3d29c7b18854540b2a4cf",
-    "url": "/portafolio-react/static/media/img-2.4570c307.png"
-  },
-  {
     "revision": "7aed761b0510d267c222500941fff135",
     "url": "/portafolio-react/static/media/iniciasesion.7aed761b.PNG"
   },
@@ -140,8 +136,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portafolio-react/static/media/reporte.5ce40d04.PNG"
   },
   {
-    "revision": "a1c0f1219de5cddcc292098639c2942e",
-    "url": "/portafolio-react/static/media/tienda.a1c0f121.png"
+    "revision": "b88755ecd5414b44e8c57d0f6df1f248",
+    "url": "/portafolio-react/static/media/tiendita.b88755ec.png"
   },
   {
     "revision": "75e57ac9f02bb6ea532abf6bd0fb6e95",
