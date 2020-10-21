@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portafolio-react/static/css/main.e05f777e.chunk.css",
-    "main.js": "/portafolio-react/static/js/main.6ce1f1d3.chunk.js",
-    "main.js.map": "/portafolio-react/static/js/main.6ce1f1d3.chunk.js.map",
+    "main.js": "/portafolio-react/static/js/main.5606e5b3.chunk.js",
+    "main.js.map": "/portafolio-react/static/js/main.5606e5b3.chunk.js.map",
     "runtime-main.js": "/portafolio-react/static/js/runtime-main.3d839029.js",
     "runtime-main.js.map": "/portafolio-react/static/js/runtime-main.3d839029.js.map",
     "static/css/2.6c12b992.chunk.css": "/portafolio-react/static/css/2.6c12b992.chunk.css",
-    "static/js/2.bc229778.chunk.js": "/portafolio-react/static/js/2.bc229778.chunk.js",
-    "static/js/2.bc229778.chunk.js.map": "/portafolio-react/static/js/2.bc229778.chunk.js.map",
+    "static/js/2.df4efbd4.chunk.js": "/portafolio-react/static/js/2.df4efbd4.chunk.js",
+    "static/js/2.df4efbd4.chunk.js.map": "/portafolio-react/static/js/2.df4efbd4.chunk.js.map",
     "index.html": "/portafolio-react/index.html",
-    "precache-manifest.6010c04e44ed1d2239edd572f4111ca8.js": "/portafolio-react/precache-manifest.6010c04e44ed1d2239edd572f4111ca8.js",
+    "precache-manifest.0b0d6842ab36f33ecec6568dda1120d4.js": "/portafolio-react/precache-manifest.0b0d6842ab36f33ecec6568dda1120d4.js",
     "service-worker.js": "/portafolio-react/service-worker.js",
     "static/css/2.6c12b992.chunk.css.map": "/portafolio-react/static/css/2.6c12b992.chunk.css.map",
     "static/css/main.e05f777e.chunk.css.map": "/portafolio-react/static/css/main.e05f777e.chunk.css.map",
-    "static/js/2.bc229778.chunk.js.LICENSE.txt": "/portafolio-react/static/js/2.bc229778.chunk.js.LICENSE.txt",
+    "static/js/2.df4efbd4.chunk.js.LICENSE.txt": "/portafolio-react/static/js/2.df4efbd4.chunk.js.LICENSE.txt",
     "static/media/Agregandocarrito.PNG": "/portafolio-react/static/media/Agregandocarrito.dfd90c8a.PNG",
     "static/media/Factura.PNG": "/portafolio-react/static/media/Factura.9edd53bc.PNG",
     "static/media/Pago.PNG": "/portafolio-react/static/media/Pago.ace1f510.PNG",
@@ -25,10 +25,12 @@
     "static/media/bg-2.png": "/portafolio-react/static/media/bg-2.377e7279.png",
     "static/media/bg.jpg": "/portafolio-react/static/media/bg.3dc6eb74.jpg",
     "static/media/carritocompra.PNG": "/portafolio-react/static/media/carritocompra.aaad6abf.PNG",
+    "static/media/categoria.PNG": "/portafolio-react/static/media/categoria.6fd48952.PNG",
     "static/media/home-img.png": "/portafolio-react/static/media/home-img.b7340a70.png",
     "static/media/img-2.png": "/portafolio-react/static/media/img-2.4570c307.png",
     "static/media/iniciasesion.PNG": "/portafolio-react/static/media/iniciasesion.7aed761b.PNG",
     "static/media/login.PNG": "/portafolio-react/static/media/login.ccefdff1.PNG",
+    "static/media/marca.PNG": "/portafolio-react/static/media/marca.9e9a475f.PNG",
     "static/media/materialdesignicons.min.css": "/portafolio-react/static/media/materialdesignicons-webfont.a32fa1f2.eot",
     "static/media/portada1.PNG": "/portafolio-react/static/media/portada1.a5d1374b.PNG",
     "static/media/portada2.PNG": "/portafolio-react/static/media/portada2.042b520d.PNG",
@@ -38,13 +40,14 @@
     "static/media/registrousuario.PNG": "/portafolio-react/static/media/registrousuario.dae1516f.PNG",
     "static/media/reporte.PNG": "/portafolio-react/static/media/reporte.5ce40d04.PNG",
     "static/media/tienda.png": "/portafolio-react/static/media/tienda.a1c0f121.png",
+    "static/media/unidad.PNG": "/portafolio-react/static/media/unidad.75e57ac9.PNG",
     "static/media/wishlist.PNG": "/portafolio-react/static/media/wishlist.6b98343c.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.3d839029.js",
     "static/css/2.6c12b992.chunk.css",
-    "static/js/2.bc229778.chunk.js",
+    "static/js/2.df4efbd4.chunk.js",
     "static/css/main.e05f777e.chunk.css",
-    "static/js/main.6ce1f1d3.chunk.js"
+    "static/js/main.5606e5b3.chunk.js"
   ]
 }
