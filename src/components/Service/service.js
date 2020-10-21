@@ -13,10 +13,10 @@ class Process extends Component {
             services : [
                 { icon : "grid", title : "Diseño ", desc : "HTML , CSS" },
                 { icon : "edit", title : "Base de datos", desc : "Oracle BD , MySql ." },
-                { icon : "headphones", title : "Awesome Support", desc : "The languages only differ in their grammar their pronunciation" },
+                { icon : "headphones", title : "Seguridad Informática", desc : "Conoc. Básico de seguridad informatica - Kali Linux" },
                 { icon : "layers", title : "Frameworks", desc : "React Developer" },
                 { icon : "code", title : "Lenguajes de Programación", desc : "Java, C++ , Python ,kotlin" },
-                { icon : "tablet", title : "Responsive layout", desc : "Their separate existence is a myth. For science, music, etc." },
+                { icon : "tablet", title : "Redes", desc : "Conocimientos de Redes Intermedio - CCNA v6.0" },
             ]
         }
     }
@@ -40,7 +40,7 @@ class Process extends Component {
                 <Row className="mt-4">
                     <Col lg={12}>
                         <div className="text-center">
-                            <Link to="#" className="btn btn-success">View more</Link>
+                            <Link to="#" className="btn btn-success"></Link>
                         </div>
                     </Col>
                 </Row>

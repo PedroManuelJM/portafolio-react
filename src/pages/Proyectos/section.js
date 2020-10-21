@@ -67,7 +67,7 @@ class Section extends Component {
                     </Container>
                 </section>
                 <br></br>
-                <section className="" id="home">
+                <section className="hero-section" id="home">
                     <Container>
                         <Row className="justify-content-center">   
                         <h3>Modelo de Base de Datos -Tienda Online</h3>              

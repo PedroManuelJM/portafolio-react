@@ -57,3 +57,64 @@ class Prueba extends Component {
 }
 
 export default Prueba;
+
+/*
+
+ <Row className="mt-5 pt-5">
+                    <Col lg={5} sm={8}>
+                        <Card className="border border-light shadow-none">
+                            <CardHeader className=" border-0 bg-transparent">
+                                <div>
+                                    <i className="mdi mdi-circle text-danger mr-1"></i>
+                                    <i className="mdi mdi-circle text-warning mr-1 ml-1"></i>
+                                    <i className="mdi mdi-circle text-success mr-1 ml-1"></i>
+                                </div>
+                            </CardHeader>
+                            <CardBody className="bg-light">
+                                <div className="box-shadow">
+                                    <img src={feature2} alt="" className="img-fluid mx-auto d-block"/>
+                                </div>
+                            </CardBody>
+                        </Card>
+                    </Col>
+                    <Col lg={5} className="ml-lg-auto">
+                        <div className="mt-4 mt-lg-0">
+                        <FeatureBox icon="pie-chart" title="Increase your Marketing Performance" smallFeatures={this.state.smallFeatures2} desc="If several languages coalesce, the grammar of the resulting language is more simple and regular." link=" " />
+                        </div>
+                    </Col>
+
+                </Row>
+                
+                <Row className="mt-5 pt-5">
+                    <Col lg={5} sm={8}>
+                        <Card className="border border-light shadow-none">
+                            <CardHeader className=" border-0 bg-transparent">
+                                <div>
+                                    <i className="mdi mdi-circle text-danger mr-1"></i>
+                                    <i className="mdi mdi-circle text-warning mr-1 ml-1"></i>
+                                    <i className="mdi mdi-circle text-success mr-1 ml-1"></i>
+                                </div>
+                            </CardHeader>
+                            <CardBody className="bg-light">
+                                <div className="box-shadow">
+                                    <img src={feature2} alt="" className="img-fluid mx-auto d-block"/>
+                                </div>
+                            </CardBody>
+                        </Card>
+                    </Col>
+                    <Col lg={5} className="ml-lg-auto">
+                        <div className="mt-4 mt-lg-0">
+                        <FeatureBox icon="pie-chart" title="Increase your Marketing Performance" smallFeatures={this.state.smallFeatures2} desc="If several languages coalesce, the grammar of the resulting language is more simple and regular." link="#" />
+                        </div>
+                    </Col>
+
+                </Row>
+                
+
+
+
+
+
+
+
+*/

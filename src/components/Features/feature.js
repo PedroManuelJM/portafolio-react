@@ -7,17 +7,20 @@ import SectionTitle from "../common/section-title";
 import FeatureBox from "./feature-box";
 
 //Import Images
-//import feature1 from "../../assets/images/features/img-1.png";
-import feature2 from "../../assets/images/features/img-2.png";
-import tienda from "../../assets/images/tienda/tienda.png";
+
+import tienda from "../../assets/images/tienda/tiendita.png";
 
 class Features extends Component {
     constructor(props) {
         super(props);
         this.state = {
             smallFeatures1 : [
-                { title : "Donec quam felis" },
-                { title : "Ultricies nec" },
+                { title : "Base de datos : My Sql" },
+                { title : "Diseño: Bootstrap " },
+                { title : "Lenguaje Prog. : Java" },
+                { title : "IDE : NetBeans 8.2" },
+                { title : "Validación: JavaScript" },
+
             ],
             smallFeatures2 : [
                 { title : "Donec quam felis" },
@@ -40,7 +43,7 @@ class Features extends Component {
                 <Row>
                     <Col lg={5}>
                         <div>
-                            <FeatureBox icon="bar-chart-2" title="Proyecto Tienda Online" smallFeatures={this.state.smallFeatures1} desc="El proyecto lo realize en mis inicios de estudiante.El entorno donde fue desarrollado NetBeans 8.2 ,Lenguaje desarrollado:Java ,Base de datos:MySql, Diseño:Bootstrap" link="/proyectotienda"  />
+                            <FeatureBox icon="bar-chart-2" title="Proyecto Tienda Online" smallFeatures={this.state.smallFeatures1} desc="El proyecto lo realize en mis inicios de estudiante." link="/proyectotienda"  />
                             
                         </div>
                     </Col>
@@ -64,56 +67,7 @@ class Features extends Component {
                 </Row>
                 
 
-                <Row className="mt-5 pt-5">
-                    <Col lg={5} sm={8}>
-                        <Card className="border border-light shadow-none">
-                            <CardHeader className=" border-0 bg-transparent">
-                                <div>
-                                    <i className="mdi mdi-circle text-danger mr-1"></i>
-                                    <i className="mdi mdi-circle text-warning mr-1 ml-1"></i>
-                                    <i className="mdi mdi-circle text-success mr-1 ml-1"></i>
-                                </div>
-                            </CardHeader>
-                            <CardBody className="bg-light">
-                                <div className="box-shadow">
-                                    <img src={feature2} alt="" className="img-fluid mx-auto d-block"/>
-                                </div>
-                            </CardBody>
-                        </Card>
-                    </Col>
-                    <Col lg={5} className="ml-lg-auto">
-                        <div className="mt-4 mt-lg-0">
-                        <FeatureBox icon="pie-chart" title="Increase your Marketing Performance" smallFeatures={this.state.smallFeatures2} desc="If several languages coalesce, the grammar of the resulting language is more simple and regular." link=" " />
-                        </div>
-                    </Col>
-
-                </Row>
-                
-                <Row className="mt-5 pt-5">
-                    <Col lg={5} sm={8}>
-                        <Card className="border border-light shadow-none">
-                            <CardHeader className=" border-0 bg-transparent">
-                                <div>
-                                    <i className="mdi mdi-circle text-danger mr-1"></i>
-                                    <i className="mdi mdi-circle text-warning mr-1 ml-1"></i>
-                                    <i className="mdi mdi-circle text-success mr-1 ml-1"></i>
-                                </div>
-                            </CardHeader>
-                            <CardBody className="bg-light">
-                                <div className="box-shadow">
-                                    <img src={feature2} alt="" className="img-fluid mx-auto d-block"/>
-                                </div>
-                            </CardBody>
-                        </Card>
-                    </Col>
-                    <Col lg={5} className="ml-lg-auto">
-                        <div className="mt-4 mt-lg-0">
-                        <FeatureBox icon="pie-chart" title="Increase your Marketing Performance" smallFeatures={this.state.smallFeatures2} desc="If several languages coalesce, the grammar of the resulting language is more simple and regular." link="#" />
-                        </div>
-                    </Col>
-
-                </Row>
-                
+               
             </Container>
             
         </section>
