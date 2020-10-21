@@ -33,14 +33,14 @@ class Features extends Component {
             <Container>
             <SectionTitle
                 subtitle="Portafolio"
-                title="Key features of the product"
-                desc="It will be as simple as occidental in fact, it will be Occidental."
+                title=""
+                desc=""
             />               
 
                 <Row>
                     <Col lg={5}>
                         <div>
-                            <FeatureBox icon="bar-chart-2" title="Proyecto Tienda Online" smallFeatures={this.state.smallFeatures1} desc="If several languages coalesce, the grammar of the resulting language is more simple and regular." link="/proyectotienda"  />
+                            <FeatureBox icon="bar-chart-2" title="Proyecto Tienda Online" smallFeatures={this.state.smallFeatures1} desc="El proyecto lo realize en mis inicios de estudiante.El entorno donde fue desarrollado NetBeans 8.2 ,Lenguaje desarrollado:Java ,Base de datos:MySql, Diseño:Bootstrap" link="/proyectotienda"  />
                             
                         </div>
                     </Col>

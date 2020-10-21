@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 
 import NavbarPage from "../../components/Navbar/Navbar_Page";
-import Section from './section';
+//import Section from './section';
 import Footer from "../../components/Footer/footer";
+import Section from '../Proyectos/section';
+
 
 
 class ProyectoTienda extends Component {
@@ -10,10 +12,8 @@ class ProyectoTienda extends Component {
         super(props);
         this.state = {
             navItems: [
-                   { id: 1, idnm: "home", navheading: "Inicio" },
-
-              //  { id: 4, idnm: "clients", navheading: "Clients" },
-              //  { id: 6, idnm: "pricing", navheading: "Plans" }
+                   { id: 1, idnm: "home", navheading: "Inicio" }
+              
             ],
             pos: document.documentElement.scrollTop,
             imglight: false,
@@ -48,9 +48,7 @@ class ProyectoTienda extends Component {
                 <NavbarPage navItems={this.state.navItems} navClass={this.state.navClass} imglight={this.state.imglight} />
 
                 {/* Importing section */}
-                <Section />
-
-          
+                <Section/>
 
                 {/* Importing Footer */}
                 <Footer />

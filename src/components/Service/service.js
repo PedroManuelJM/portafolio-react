@@ -11,11 +11,11 @@ class Process extends Component {
         super(props);
         this.state = {
             services : [
-                { icon : "grid", title : "Bootstrap UI based", desc : "To an English person, it will seem like English as skeptical." },
-                { icon : "edit", title : "Easy to customize", desc : "If several languages coalesce, the grammar of the language." },
+                { icon : "grid", title : "Diseño ", desc : "HTML , CSS" },
+                { icon : "edit", title : "Base de datos", desc : "Oracle BD , MySql ." },
                 { icon : "headphones", title : "Awesome Support", desc : "The languages only differ in their grammar their pronunciation" },
-                { icon : "layers", title : "Creative Design", desc : "Everyone realizes why a new common would be desirable." },
-                { icon : "code", title : "Quality Code", desc : "To achieve this, it would be necessary to have uniform." },
+                { icon : "layers", title : "Frameworks", desc : "React Developer" },
+                { icon : "code", title : "Lenguajes de Programación", desc : "Java, C++ , Python ,kotlin" },
                 { icon : "tablet", title : "Responsive layout", desc : "Their separate existence is a myth. For science, music, etc." },
             ]
         }
@@ -27,9 +27,9 @@ class Process extends Component {
         <section className="section bg-light" id="services">
             <Container>
             <SectionTitle
-                subtitle="Services"
-                title="Services We Provide"
-                desc="It will be as simple as occidental in fact, it will be Occidental."
+                subtitle="Conocimientos"
+                title=" "
+                desc=" "
             />
 
                 <Row>
